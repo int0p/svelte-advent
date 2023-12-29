@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Title } from "$ui/alert-dialog";
-    import * as Card from "$lib/components/ui/card";
+    import {Card} from "$ui";		
+
 	const christmas = new Date("December 25, 2023 00:00:00");
 	let today = $state(new Date());
 

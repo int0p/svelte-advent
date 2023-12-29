@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Button } from "$ui/button";
-    import * as Card from "$lib/components/ui/card";
+	import {Button, Card} from "$ui";		
+
 	import { Game } from "./state.svelte";
 	let game = new Game(12);
 </script>

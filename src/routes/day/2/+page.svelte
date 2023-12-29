@@ -1,7 +1,6 @@
 <script lang="ts">
   import { Cookie } from "phosphor-svelte";
-  import { Button } from "$ui/button";
-  import { Progress } from "$ui/progress";
+	import {Button, Progress} from "$ui";		
 
   let count = $state(0);
 

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { Present } from "./+page.js";
-	import { Button } from "$ui/button";
-	import { Progress } from "$ui/progress";
+
+	import {Button, Progress} from "$ui";		
 
 	let { data } = $props();
 

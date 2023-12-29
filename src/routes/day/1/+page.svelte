@@ -1,10 +1,6 @@
 <script lang="ts">
-    import * as Card from "$lib/components/ui/card";
-	import * as Table from "$lib/components/ui/table";
-	import { Badge } from "$lib/components/ui/badge";
-	import { Button } from "$lib/components/ui/button";
-	import { Input } from "$lib/components/ui/input";
-	import { Label } from "$lib/components/ui/label";
+    
+	import {Card, Table, Badge, Button, Input, Label} from "$ui";	
 	import { CaretLeft, CaretDoubleLeft, CaretRight, CaretDoubleRight } from "phosphor-svelte";
 	import { NaughtyOrNice } from "./state.svelte.js";
 	import { cn } from "$lib/utils.js";

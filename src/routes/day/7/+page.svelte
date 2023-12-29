@@ -1,8 +1,7 @@
 <script lang="ts">
-    import { Button } from "$ui/button";
-    import { Input } from "$ui/input";
-    import {Label} from "$ui/label";
+
     import {morseMap} from "./morseMap";
+	import {Button, Input,Label} from "$ui";		
 
     let inputVal = $state("hello World");
     let morseCode :string[] = $derived(convertToMorse());
